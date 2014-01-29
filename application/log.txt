@@ -1,0 +1,146 @@
+Fri, 15 Feb 2013 18:12:52 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'exists (select * from resume where id = 'a')' at line 1
+
+Fri, 15 Feb 2013 18:13:53 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'exists select * from resume where id = 'a'' at line 1
+
+Fri, 15 Feb 2013 18:18:31 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select * from resume where id = 'a')' at line 1
+
+Fri, 15 Feb 2013 18:19:44 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+Fri, 15 Feb 2013 18:20:14 +0100
+SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+
+Fri, 15 Feb 2013 18:34:42 +0100
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'b' for key 'PRIMARY'
+
+Fri, 15 Feb 2013 18:37:08 +0100
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'b' for key 'PRIMARY'
+
+Fri, 15 Feb 2013 18:37:29 +0100
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'b' for key 'PRIMARY'
+
+Fri, 15 Feb 2013 18:59:07 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = NULL))' at line 1
+
+Fri, 15 Feb 2013 19:00:52 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))' at line 1
+
+Fri, 15 Feb 2013 19:01:01 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))' at line 1
+
+Fri, 15 Feb 2013 19:18:45 +0100
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'c' for key 'PRIMARY'
+
+Fri, 15 Feb 2013 19:22:07 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))' at line 1
+
+Fri, 15 Feb 2013 19:33:43 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')))' at line 1
+
+Fri, 15 Feb 2013 20:51:32 +0100
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_postion' in 'field list'
+
+Fri, 15 Feb 2013 20:53:33 +0100
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_position' in 'field list'
+
+Sat, 16 Feb 2013 23:00:57 +0100
+SQLSTATE[42S02]: Base table or view not found: 1109 Unknown table 'id' in MULTI DELETE
+
+Sat, 16 Feb 2013 23:02:41 +0100
+SQLSTATE[42S02]: Base table or view not found: 1109 Unknown table 'id' in MULTI DELETE
+
+Sat, 16 Feb 2013 23:03:06 +0100
+SQLSTATE[42S02]: Base table or view not found: 1109 Unknown table 'id' in MULTI DELETE
+
+Sat, 16 Feb 2013 23:04:49 +0100
+SQLSTATE[42S02]: Base table or view not found: 1109 Unknown table 'id' in MULTI DELETE
+
+Sun, 17 Feb 2013 16:10:24 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where 
+	  			id_contact = 'a' and id_position = 'a'' at line 1
+
+Sun, 17 Feb 2013 16:16:32 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from position_sought, where 
+	  			id_contact = 'a' and id_position = 'a'' at line 1
+
+Sun, 17 Feb 2013 16:17:02 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from position_sought where 
+	  			id_contact = 'a' and id_position = 'a'' at line 1
+
+Sun, 17 Feb 2013 16:18:56 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.position from contact_info, position_sought where 
+	  			id_contact = 'a' and ' at line 1
+
+Sun, 17 Feb 2013 16:20:24 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.position from contact_info, position_sought where 
+	  			contact_info.id_conta' at line 1
+
+Sun, 17 Feb 2013 16:49:47 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'set phone = '801', address = '2094'  where id_contact = 'a'' at line 1
+
+Sun, 17 Feb 2013 17:53:28 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'set phone = '801', address = '2094'  where id_contact = 'a'' at line 1
+
+Sun, 17 Feb 2013 17:55:13 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'set phone = '801', address = '2094'  where id_contact = 'a'' at line 1
+
+Mon, 18 Feb 2013 16:08:02 +0100
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY'
+
+Mon, 18 Feb 2013 16:08:34 +0100
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY'
+
+Mon, 18 Feb 2013 16:53:19 +0100
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY'
+
+Sat, 23 Feb 2013 23:03:41 +0100
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ps4_chadm.user' doesn't exist
+
+Sun, 24 Feb 2013 19:20:57 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1142 SELECT command denied to user 'chadm'@'50.8.105.37' for table 'NULL'
+
+Sun, 24 Feb 2013 19:22:44 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1142 SELECT command denied to user 'chadm'@'50.8.105.37' for table 'NULL'
+
+Sun, 24 Feb 2013 20:16:47 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''' at line 1
+
+Sun, 24 Feb 2013 20:20:25 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''' at line 1
+
+Sun, 24 Feb 2013 21:31:36 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1142 SELECT command denied to user 'chadm'@'50.8.105.37' for table 'NULL'
+
+Sun, 24 Feb 2013 21:35:03 +0100
+SQLSTATE[42000]: Syntax error or access violation: 1142 SELECT command denied to user 'chadm'@'50.8.105.37' for table 'NULL'
+
+Sun, 24 Feb 2013 21:36:18 +0100
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'
+
+Tue, 26 Feb 2013 14:44:49 +0100
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+Tue, 26 Feb 2013 14:57:54 +0100
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'beg' in 'field list'
+
+Tue, 26 Feb 2013 15:20:03 +0100
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'resume' for key 'PRIMARY'
+
+Tue, 26 Feb 2013 15:52:46 +0100
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_name' in 'field list'
+
+Tue, 26 Feb 2013 15:54:17 +0100
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ps6_chadm`.`resume`, CONSTRAINT `user_resume` FOREIGN KEY (`password_r`) REFERENCES `user` (`password`) ON DELETE CASCADE ON UPDATE CASCADE)
+
+Tue, 26 Feb 2013 15:55:32 +0100
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ps6_chadm`.`resume`, CONSTRAINT `password_r` FOREIGN KEY (`password_r`) REFERENCES `user` (`password`) ON DELETE CASCADE ON UPDATE CASCADE)
+
+Wed, 27 Feb 2013 21:25:10 +0100
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ps6_chadm.users' doesn't exist
+
+Fri, 01 Mar 2013 20:23:34 +0100
+SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+

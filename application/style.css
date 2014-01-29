@@ -1,0 +1,40 @@
+@CHARSET "ISO-8859-1";
+
+.block {
+    border:1px solid black;
+    margin-bottom:10px;
+}
+
+.block2 {
+    border:1px solid black;
+    padding:15px;
+    margin-left:2cm;
+}
+
+.date {
+    size:20;
+}
+
+.info {
+    width:400px;
+    height:75px;
+}
+
+.contact {
+    size:40;
+}
+
+.remove {
+    text-align:right;
+}
+
+.error {
+	color:red;
+}
+
+.buttons{
+	
+	 border:1px solid black;
+}
+
+
